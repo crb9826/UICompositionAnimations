@@ -11,6 +11,8 @@ $RECYCLE.BIN/
 #Visual Studio files
 *.lock
 *.suo
+*.cache
+.suo
 
 # Windows Installer files
 *.cab
