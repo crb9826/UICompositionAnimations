@@ -1,5 +1,9 @@
-﻿namespace Windows.UI.Composition
+﻿#pragma warning disable 1591
+namespace UICompositionAnimations.Enums
 {
+    /// <summary>
+    /// Indicates an easing function for an animation
+    /// </summary>
     public enum EasingFunctionNames
     {
         Linear,
@@ -8,6 +12,9 @@
         SineEaseInOut,
         QuadraticEaseIn,
         QuadraticEaseOut,
-        QuadraticEaseInOut
+        QuadraticEaseInOut,
+        CircleEaseIn,
+        CircleEaseOut,
+        CircleEaseInOut
     }
 }
